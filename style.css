@@ -74,6 +74,11 @@ body {
     margin-top: 10px;
 }
 
+.resume-description{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 @media screen and (min-width: 600px) {
     .bio-content{
         display: flex;
@@ -87,5 +92,9 @@ body {
     }
     .bio-text{
         max-width: 75%;
+    }
+    .desk-pop{
+        display: flex;
+        justify-content: space-between;
     }
 }
