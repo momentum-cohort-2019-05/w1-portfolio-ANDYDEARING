@@ -74,9 +74,18 @@ body {
     margin-top: 10px;
 }
 
-.resume-description{
+.resume-description, .project-description{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.project-head{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects-content{
+    padding: 20px;
 }
 
 @media screen and (min-width: 600px) {
