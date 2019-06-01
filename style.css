@@ -74,18 +74,29 @@ body {
     margin-top: 10px;
 }
 
-.resume-description, .project-description{
+.resume-description, .project-head-mobile, .project-description-desktop{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.project-head{
-    margin-top: 20px;
+.project-head-mobile, .project-description-desktop{
     margin-bottom: 20px;
 }
 
 .projects-content{
     padding: 20px;
+}
+
+.project-pic{
+    max-width: 500px;
+}
+
+.project-description-mobile, .project-description-desktop{
+    margin-bottom: 20px;
+}
+
+.project-description-desktop, .project-head-desktop{
+    display: none;
 }
 
 @media screen and (min-width: 600px) {
@@ -105,5 +116,14 @@ body {
     .desk-pop{
         display: flex;
         justify-content: space-between;
+    }
+    .project-pic{
+        max-width: 50%;
+    }
+    .project-description-mobile, .project-head-mobile {
+        display: none;
+    }
+    .project-description-desktop, .project-head-desktop{
+        display: block;
     }
 }
